@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: #EFF5F5;
+    font-size: 18px;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Overlock SC', cursive;
+}
+:root{
+  --darkgrey: #222831;
+  --lightgrey: #393E46;
+  /* --yellow: #FBCB0A; */
+  --yellow: #15B96A;
+  
+}
+
+header{
+  position: fixed;
+}
+.container{
+    background-color: var(--yellow);
+    width: fit-content;
+    height: 100vh;
+}
+.container img{
+    width: 55px;
+    padding: 7px;
+    margin: 7px;
+}
+
+
+.icons {
+    position: relative;
+  }
+  
+.icons .texticon {
+    visibility: hidden;
+    width: 89px;
+    top: 45px;
+    left: 57px;
+    background-color: #D3FADE;
+    color: var(--darkgrey);
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    padding: 2px ;
+    /* Position the icons */
+    position: absolute;
+    z-index: 1;
+}
+  
+.icons:hover .texticon {
+    visibility: visible;
+}
+
+
+  /* Web page */
+.webpage{
+    margin-left: 69px;
+    width: calc(100% - 69px);
+}
+
+  /* First page */
+.pageone{
+    background-color: var(--lightgrey);
+    height: 75vh;
+    width: 100%;
+    /* padding: 0px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-between;
+  }
+.name{
+  padding-left: 90px;
+}
+  #job{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 38px;
+  }
+  #myname{
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 65px;
+    width: 33vw;
+  }
+.shortnote{
+  display: flex;
+  padding-right: 90px;
+}
+.divider{
+  border-left: 1.5px solid #EFF5F5;
+  height: 160px;
+}
+.notecontainer{
+  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.onelinenote{
+  font-size: 19px;
+  font-weight: 100;
+  width: 275px;
+}
+.links{
+  padding: 10px 0;
+  font-size: 26px;
+}
+
+/* About */
+
+.about{
+  background-color: var(--darkgrey);
+  padding-top: 75px;
+}
+.title ,.ans{
+  display: flex;
+  font-size: 13px;
+  justify-content: space-evenly;
+}
+.titleone{
+  color: var(--yellow);
+}
+.aboutme{
+  font-size: 90px;
+  padding-top: 30px;
+  padding-left: 200px;
+}
+.aboutcontainer{
+  display: flex;
+  justify-content: flex-start;
+  padding: 50px 200px 35px 200px;
+}
+.short{
+  /* width: 80px; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: end;
+  overflow-x: visible;
+  margin-bottom: 30px;
+}
+.short i{
+  font-size: 17px;
+  line-height: 15px;
+  text-align: end;
+}
+.aboutdivider{
+  border-left: 1.5px solid #EFF5F5;
+  height: 350px;
+  margin: 0 40px;
+}
+.detailaboutme{
+  width: 510px;
+  margin-top: 20px;
+}
+.detailaboutme button{
+  width: 180px;
+  height: 40px;
+  font-size: 20px;
+  color: #EFF5F5;
+  background-color: transparent;
+  border-radius: 7px;
+  border-width: 1.5px;
+  border-color: var(--yellow);
+}
+.detailaboutme button a{
+  text-decoration: none;
+  padding: 7px 38px  ;
+}
+
+/* skills */
+.skills{
+  background-color: var(--lightgrey);
+  padding-bottom: 50px;
+}
+.skills-head{
+  background-color: var(--lightgrey);
+  font-size: 90px;
+  padding-top: 30px;
+  padding-left: 200px;
+}
+.skillcontainer{
+  margin: 50px 110px;
+  border-radius: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  background-color: var(--darkgrey);
+}
+
+.flip-card{
+  background-color: transparent;
+  width: 170px;
+  height: 170px;
+  perspective: 1000px;
+  margin: 45px 25px;
+}
+.inner-card{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover  .inner-card{
+  transform: rotateY(180deg);
+}
+.front-img , .back-img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;    
+  border-radius: 16px;
+}
+.front-img{
+  background-image: radial-gradient(circle, #222831, #1c2028, #17171f, #100e16, #05000b);
+}
+.front-img img{
+  width: 80%;
+  margin-top: 17px;
+}
+.back-img{
+  background-image: radial-gradient(circle, #222831, #1c2028, #17171f, #100e16, #05000b);
+  color: #EFF5F5;
+  transform: rotateY(180deg);
+}
+.back-img img{
+  width: 65%;
+  margin-top: 12px;
+}
+.back-img h1{
+  font-size: 25px;
+}
+
