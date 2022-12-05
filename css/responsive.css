@@ -12,5 +12,10 @@
         justify-content: space-evenly;
         align-content: center;
     }
+    .webpage{
+        width: 100vw;
+        margin: 0px;
+    }
+    
     
 }

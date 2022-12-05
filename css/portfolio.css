@@ -5,14 +5,13 @@
     margin: 0px;
     padding: 0px;
     color: #EFF5F5;
-    font-size: 18px;
+    font-size: 20px;
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Overlock SC', cursive;
 }
 :root{
   --darkgrey: #222831;
   --lightgrey: #393E46;
-  --lightgrey: red;
   /* --yellow: #FBCB0A; */
   --yellow: #15B96A;
   
@@ -65,11 +64,10 @@ header{
 }
 
   /* First page */
-.pageone{
+/* .pageone{
     background-color: var(--lightgrey);
     height: 75vh;
     width: 100%;
-    /* padding: 0px; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -112,13 +110,50 @@ header{
 .links{
   padding: 10px 0;
   font-size: 26px;
+} */
+
+.pageone{
+  background-color: var(--lightgrey);
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#job{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 38px;
+}
+#myname{
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 65px;
+  color: #15B96A;
+}
+
+.divider{
+border-top: 1.5px solid #EFF5F5;
+width: 500px;
+margin: 25px;
+}
+
+.onelinenote{
+font-size: 20px;
+font-weight: 200;
+/* color: #15B96A; */
+}
+.links i{
+padding: 20px 10px;
+font-size: 30px;
 }
 
 /* About */
 
 .about{
   background-color: var(--darkgrey);
-  padding-top: 75px;
+  padding-top: 60px;
 }
 .title ,.ans{
   display: flex;
@@ -128,18 +163,20 @@ header{
 .titleone{
   color: var(--yellow);
 }
+.about-section{
+  height: 100%;
+}
 .aboutme{
   font-size: 90px;
-  padding-top: 30px;
+  padding-top: 17px;
   padding-left: 200px;
 }
 .aboutcontainer{
   display: flex;
   justify-content: flex-start;
-  padding: 50px 200px 35px 200px;
+  padding: 37px 200px 37px 200px;
 }
 .short{
-  /* width: 80px; */
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -154,11 +191,11 @@ header{
 }
 .aboutdivider{
   border-left: 1.5px solid #EFF5F5;
-  height: 350px;
+  height: 370px;
   margin: 0 40px;
 }
 .detailaboutme{
-  width: 510px;
+  width: 530px;
   margin-top: 20px;
 }
 .detailaboutme button{
@@ -173,7 +210,7 @@ header{
 }
 .detailaboutme button a{
   text-decoration: none;
-  padding: 7px 38px  ;
+  padding: 7px 32px  ;
 }
 
 /* skills */
