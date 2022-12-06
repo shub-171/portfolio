@@ -113,7 +113,7 @@ header{
 .links{
   padding: 10px 0;
   font-size: 26px;
-} */
+}*/ 
 
 .pageone{
   background-color: var(--lightgrey);
@@ -140,7 +140,7 @@ header{
 }
 
 .divider{
-border-top: 1.5px solid #EFF5F5;
+  border-top: 1.5px solid #EFF5F5;
 width: 500px;
 margin: 25px;
 box-shadow: 1px 1px 3px #05000b;
@@ -148,30 +148,40 @@ box-shadow: 1px 1px 3px #05000b;
 }
 
 .onelinenote{
-font-size: 20px;
-font-weight: 200;
-text-shadow: 2px 2px 6px #05000b;
-/* color: #15B96A; */
+  font-size: 20px;
+  font-weight: 200;
+  text-shadow: 2px 2px 6px #05000b;
+  margin: 0px 10px;
+  /* color: #15B96A; */
 }
 .links i{
-padding: 20px 10px;
-font-size: 30px;
+  margin: 20px 10px;
+  font-size: 30px;
 }
+
+.home-about{
+  background-color: var(--darkgrey);
+  height: 25vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-1 ,.about-2, .about-3{
+  width: 33%;
+  text-align: center;
+}
+.title{
+  color: var(--yellow);
+}
+
 
 /* About */
 
 .about{
   background-color: var(--darkgrey);
-  padding-top: 60px;
 }
-.title ,.ans{
-  display: flex;
-  font-size: 13px;
-  justify-content: space-evenly;
-}
-.titleone{
-  color: var(--yellow);
-}
+
 .about-section{
   height: 100%;
 }

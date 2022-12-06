@@ -1,28 +1,71 @@
-@media only screen and (max-width: 520px){
+@media only screen and (max-width: 426px){
+    
     header{
-        /* position: relative; */
-        bottom:  auto;
-        
+        bottom:  0;
+        z-index: 5;
+        width: 100vw;
     }
     .container{
-        width: 100vh;
-        height: fit-content;
+        width: unset;
+        height: 35px;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        align-content: center;
+        align-items: center;
     }
-    header{
-        bottom: 0;
-        z-index: 5;
-        position: fixed;
-        width: 100vw;
-
+    .container img{
+        padding: 0;
+        margin: 0;
+        width: 20px;
     }
+    header .container .icons span{
+        display: none;
+    }
+    
     .webpage{
         width: 100vw;
         margin: 0px;
     }
+
+    /* home page */
+
+    .pageone{
+        height: 60vh;
+    }
+    #job{
+        font-size: 14px;
+    }
+    #myname{
+        align-items: center;
+        font-size: 35px;
+        line-height: 25px;
+    }
+    .divider{
+        width: 200px;
+    }
+    .onelinenote{
+        font-size: 17px;
+        text-align: center;
+    }
+    .links i{
+        margin: 10px 5px;
+        font-size: 20px;
+    }
+    .home-about{
+        height: 40vh;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .about-1 ,.about-2 {
+        width: 50%;
+      }
+      .about-3{
+        width: 100%;
+      }
+
+    /* about page */
+
+
     
     
 }
