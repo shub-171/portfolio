@@ -12,6 +12,13 @@
         justify-content: space-evenly;
         align-content: center;
     }
+    header{
+        bottom: 0;
+        z-index: 5;
+        position: fixed;
+        width: 100vw;
+
+    }
     .webpage{
         width: 100vw;
         margin: 0px;

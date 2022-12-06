@@ -8,6 +8,8 @@
     font-size: 20px;
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Overlock SC', cursive;
+  text-shadow: 4px 4px 5px #05000b;
+
 }
 :root{
   --darkgrey: #222831;
@@ -47,6 +49,7 @@ header{
     font-weight: 900;
     text-align: center;
     padding: 2px ;
+    text-shadow: none;
     /* Position the icons */
     position: absolute;
     z-index: 1;
@@ -125,23 +128,29 @@ header{
   font-size: 20px;
   font-weight: 300;
   line-height: 38px;
+  text-shadow: 4px 4px 4px #05000b;
 }
 #myname{
   font-size: 80px;
   font-weight: 500;
   line-height: 65px;
   color: #15B96A;
+  text-shadow: 3px 3px 4px #05000b;
+  
 }
 
 .divider{
 border-top: 1.5px solid #EFF5F5;
 width: 500px;
 margin: 25px;
+box-shadow: 1px 1px 3px #05000b;
+
 }
 
 .onelinenote{
 font-size: 20px;
 font-weight: 200;
+text-shadow: 2px 2px 6px #05000b;
 /* color: #15B96A; */
 }
 .links i{
