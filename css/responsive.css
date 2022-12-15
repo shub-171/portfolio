@@ -61,10 +61,65 @@
       }
       .about-3{
         width: 100%;
+        margin-bottom: 10px;
       }
 
     /* about page */
 
+    .aboutme{
+        font-size: 45px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .aboutcontainer{
+        padding: 27px 100px 27px 100px;
+        justify-content: space-around;
+        align-items: center;
+      }
+    .short{
+        align-items: center;
+    }
+    .aboutdivider{
+        border-left: 1.5px solid #EFF5F5;
+        height: 620px;
+        margin: 0 20px;
+      }
+      .detailaboutme{
+        margin-top: 20px;
+      }
+      .detailaboutme section{
+        font-size: 17px;
+
+      }
+
+      /* skill */
+
+      .skills-head{
+        font-size: 45px;
+        padding-top: 30px;
+        padding-left: 0px;
+        text-align: center;
+      }
+
+      .skillcontainer{
+        margin: 45px 40px;
+        border-radius: 16px;
+      }
+      .flip-card{
+        width: 80px;
+        height: 80px;
+        margin: 35px 15px;
+      }
+      .front-img img{
+        margin-top: 10px;
+      }
+      .back-img img{
+        width: 58%;
+        margin-top: 9px;
+      }
+      .back-img h1{
+        font-size: 15px;
+      }
 
     
     
