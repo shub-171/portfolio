@@ -23,7 +23,7 @@
     }
     
     .webpage{
-        width: 100vw;
+        width: auto;
         margin: 0px;
     }
 
@@ -36,8 +36,8 @@
         font-size: 14px;
     }
     #myname{
-        align-items: center;
-        font-size: 35px;
+        text-align: center;
+        font-size: 34px;
         line-height: 25px;
     }
     .divider{
@@ -102,12 +102,12 @@
       }
 
       .skillcontainer{
-        margin: 45px 40px;
+        margin: 45px 30px;
         border-radius: 16px;
       }
       .flip-card{
-        width: 80px;
-        height: 80px;
+        width: 91px;
+        height: 91px;
         margin: 35px 15px;
       }
       .front-img img{

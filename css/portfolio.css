@@ -182,9 +182,9 @@ box-shadow: 1px 1px 3px #05000b;
   background-color: var(--darkgrey);
 }
 
-.about-section{
-  /* height: 100%; */
-}
+/* .about-section{
+  height: 100%;
+} */
 .aboutme{
   font-size: 90px;
   padding-top: 17px;
