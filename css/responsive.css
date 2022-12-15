@@ -61,7 +61,7 @@
       }
       .about-3{
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: calc(0 + 35px);
       }
 
     /* about page */
@@ -72,21 +72,13 @@
         padding-left: 0px;
     }
     .aboutcontainer{
-        padding: 27px 100px 27px 100px;
+        padding: 27px 0px;
         justify-content: space-around;
         align-items: center;
       }
     .short{
         align-items: center;
     }
-    .aboutdivider{
-        border-left: 1.5px solid #EFF5F5;
-        height: 620px;
-        margin: 0 20px;
-      }
-      .detailaboutme{
-        margin-top: 20px;
-      }
       .detailaboutme section{
         font-size: 17px;
 
@@ -102,12 +94,12 @@
       }
 
       .skillcontainer{
-        margin: 45px 30px;
+        margin: 45px 20px;
         border-radius: 16px;
       }
       .flip-card{
-        width: 91px;
-        height: 91px;
+        width: 100px;
+        height: 100px;
         margin: 35px 15px;
       }
       .front-img img{

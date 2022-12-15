@@ -182,9 +182,7 @@ box-shadow: 1px 1px 3px #05000b;
   background-color: var(--darkgrey);
 }
 
-/* .about-section{
-  height: 100%;
-} */
+
 .aboutme{
   font-size: 90px;
   padding-top: 17px;
@@ -193,6 +191,7 @@ box-shadow: 1px 1px 3px #05000b;
 .aboutcontainer{
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   padding: 37px 200px 37px 200px;
 }
 .short{
@@ -202,20 +201,19 @@ box-shadow: 1px 1px 3px #05000b;
   justify-content: end;
   overflow-x: visible;
   margin-bottom: 30px;
+  margin-left: 25px;
 }
 .short i{
   font-size: 17px;
   line-height: 15px;
   text-align: end;
 }
-.aboutdivider{
-  border-left: 1.5px solid #EFF5F5;
-  height: 370px;
-  margin: 0 40px;
-}
+
 .detailaboutme{
-  width: 530px;
-  margin-top: 20px;
+  border-left: 1.5px solid #EFF5F5;
+  width: 650px;
+  margin-left: 25px;
+  padding: 25px 25px;
 }
 .detailaboutme button{
   width: 180px;
