@@ -236,7 +236,6 @@ box-shadow: 1px 1px 3px #05000b;
   padding-bottom: 50px;
 }
 .skills-head{
-  background-color: var(--lightgrey);
   font-size: 90px;
   padding-top: 30px;
   padding-left: 200px;
@@ -297,3 +296,31 @@ box-shadow: 1px 1px 3px #05000b;
   font-size: 25px;
 }
 
+
+
+/* Projects */
+.projects{
+  background-color: var(--darkgrey);
+  padding-bottom: 50px;
+}
+.projects-head{
+  font-size: 90px;
+  padding-top: 30px;
+  padding-left: 200px;
+}
+.projectscontainer{
+  margin: 50px 110px;
+  border-radius: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  background-color: var(--darkgrey);
+}
+
+.projectscontainer details summary img{
+  width: 50px;
+}
+.projectscontainer details summary{
+  list-style: none;
+}
